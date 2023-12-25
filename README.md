@@ -1,8 +1,9 @@
 # Name: Sri Vignesh G
 # Ref.No: 23012556 
 
-# Exp-6-Synchornous-counters - up counter and down counter 
-## AIM: To implement 4 bit up and down counters and validate functionality.
+# Exp-6: Synchornous counters up counter and down counter 
+## AIM: 
+To implement 4 bit up and down counters and validate functionality.
 ## Equipments Required:
 Hardware Required: PC, Cyclone II , USB flasher
 Software Required: Quartus prime
