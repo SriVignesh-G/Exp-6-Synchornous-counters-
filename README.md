@@ -2,7 +2,7 @@
 # Ref.No: 23012556 
 
 # Exp-6-Synchornous-counters - up counter and down counter 
-## AIM: To implement 4 bit up and down counters and validate  functionality.
+## AIM: To implement 4 bit up and down counters and validate functionality.
 ## Equipments Required:
 Hardware Required: PC, Cyclone II , USB flasher
 Software Required: Quartus prime
@@ -88,6 +88,13 @@ endmodule
 ### DOWN COUNTER
 ![down td](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/d4a1ac80-4851-44de-8ccf-1bc43504a2a2)
 
+## TRUTH TABLE
+### UP COUNTER
+![image](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/2f77f8ca-4443-4c8e-9f69-680184ad8ac5)
+
+### DOWN COUNTER
+![image](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/2e31460a-f88f-4a40-b90d-f01aa07c62f8)
+
 
 ### RESULTS 
-Thus, the flipflops are implemented using verilog.
+Thus we have verified the truthtable of 4-bit up and down counter using verilog.
