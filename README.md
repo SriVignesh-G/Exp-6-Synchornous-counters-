@@ -3,14 +3,14 @@
 
 # Exp-6: Synchornous counters up counter and down counter 
 ## AIM: 
-To implement 4 bit up and down counters and validate functionality.
+To implement 3 bit up and down counters and validate functionality.
 ## Equipments Required:
 Hardware Required: PC, Cyclone II , USB flasher
 Software Required: Quartus prime
 ## THEORY 
 
 ### UP COUNTER 
-The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
+The counter is a digital sequential circuit and here it is a 3 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
 The counter (“count“) value will be evaluated at every positive (rising) edge of the clock (“clk“) cycle.
 The Counter will be set to Zero when “reset” input is at logic high.
@@ -34,7 +34,7 @@ Four-bit “Up” Counter
 
 As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
 
-This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
+This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 3-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
 ![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
 
 
@@ -91,11 +91,13 @@ endmodule
 
 ## TRUTH TABLE
 ### UP COUNTER
-![image](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/2f77f8ca-4443-4c8e-9f69-680184ad8ac5)
+![image](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/5ea737c6-05ac-40a7-8224-e1af6e2f59a4)
+
 
 ### DOWN COUNTER
-![image](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/2e31460a-f88f-4a40-b90d-f01aa07c62f8)
+![image](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/44ec7227-d932-4923-ab9c-d42740312419)
+
 
 
 ### RESULTS 
-Thus we have verified the truthtable of 4-bit up and down counter using verilog.
+Thus we have verified the truthtable of 3-bit up and down counter using verilog.
