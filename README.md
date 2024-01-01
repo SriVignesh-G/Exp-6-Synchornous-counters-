@@ -28,7 +28,8 @@ Starting with four J-K flip-flops connected in such a way to always be in the �
 The Q outputs of each flip-flop will serve as the respective binary bits of the final, three-bit count:
 three-bit “Up” Counter
 
-![ex6 up 3bit ](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/01aef94a-5947-477d-9c0f-0ce9966ef9c3)
+![jk 3 bit up](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/1f0c3a64-f563-414d-a0ba-9aee0b05352d)
+
 
 
 ### DOWN COUNTER 
@@ -38,7 +39,8 @@ As well as counting “up” from zero and increasing or incrementing to some pr
 This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 3-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
 three-bit "Down" Counter
 
-![ex 6 down 3bit](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/b1abfe02-5158-4998-882a-991d1da9861f)
+![jk 3 bit down](https://github.com/SriVignesh-G/Exp-6-Synchornous-counters-/assets/147576510/c3f4b8e2-e889-4e02-9184-4cac4c922f38)
+
 
 
 
